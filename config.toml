@@ -5,7 +5,6 @@ theme = "stip"
 [Author]
     name = "A Very Stable Milking Stool"
     bio = "Feeding all The Mermaids. With all The Kebabs."
-
 [params.colors]
     background = "#F36109"
     circle = "#3942ba"
