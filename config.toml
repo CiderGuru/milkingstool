@@ -15,7 +15,7 @@ theme = "stip"
     [[params.links]]
         icon = "twitter"
         title = "Twitter"
-        url = "https://twitter.com/CeleryVase"
+        url = "https://twitter.com/StableStool"
 
     [[params.links]]
         icon = "youtube"
