@@ -36,11 +36,6 @@ theme = "stip"
         icon = "paypal"
         title = "PayPal"
         url = "https://paypal.me/JonesHoward"
-
-    [[params.links]]
-        icon = "patreon"
-        title = "Patreon"
-        url = "https://www.patreon.com/VeryStableMilkingStool"    
     
     [[params.links]]
         icon = "amazon"
