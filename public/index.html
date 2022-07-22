@@ -8,8 +8,6 @@
     <title>
             A Very Stable Milking Stool
     </title>
-
-    <a rel="me" href="https://counter.social/@StableMilkStool">CounterSocial</a>
 	
     <link rel="stylesheet" href="/css/style.css">
 
@@ -88,6 +86,21 @@ The links below are the links you are looking for.
         'floating-chat.donateButton.text-color': '#fff'
       });
     </script>
+    <div id="donate-button-container">
+        <div id="donate-button"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+        PayPal.Donation.Button({
+        env:'production',
+        hosted_button_id:'YBPJARX6GV4CG',
+        image: {
+        src:'https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif',
+        alt:'Donate with PayPal button',
+        title:'PayPal - The safer, easier way to pay online!',
+        }
+        }).render('#donate-button');
+        </script>
+        </div>
 </div></div>
 </main>
 
